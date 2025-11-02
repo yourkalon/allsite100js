@@ -2,11 +2,7 @@
     const playButton = document.querySelector('.play-button');
     const spinner = document.getElementById('loadingSpinner');
 
-    // প্লে বাটন লুকাও, স্পিনার দেখাও
-    playButton.style.display = 'none';
-    spinner.style.display = 'block';
 
-    const redirectURL = "https://zmistar.blogspot.com/p/parves_9.html";
 
     // 🔹 ০.৫ সেকেন্ড পর নতুন ট্যাবে লিঙ্ক ওপেন হবে
     setTimeout(() => {
